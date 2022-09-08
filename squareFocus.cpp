@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 
     // Set configuration parameters
     InitParameters init_params;
-    init_params.camera_resolution = RESOLUTION::HD1080;
+    init_params.camera_resolution = RESOLUTION::HD720;
     init_params.depth_mode = DEPTH_MODE::ULTRA;
     init_params.coordinate_units = UNIT::METER;
 
